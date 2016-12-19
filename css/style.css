@@ -432,7 +432,12 @@ b {
     background-size: cover;
 }
 
-
+.bg-img-map {
+    background: url("../images/map.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
 /*------------------------------------------*/
 
 
