@@ -1464,7 +1464,14 @@ textarea {
 
 /*   Hover Effects
 /*------------------------------------------*/
+@font-face {
+    font-family: myFirstFont;
+    src: url(../open-sans/OpenSans-Regular.ttf);
+}
 
+.open-sans {
+    font-family: 'myFirstFont' !important;
+}
 .h figure {
     z-index: 1;
     position: relative;
