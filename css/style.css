@@ -425,6 +425,7 @@ b {
     -moz-background-size: cover;
     background-size: cover;
 }
+
 .bg-img1 {
     background: url("../images/hut1.jpg") no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -438,6 +439,8 @@ b {
     -moz-background-size: cover;
     background-size: cover;
 }
+
+
 /*------------------------------------------*/
 
 
@@ -705,11 +708,12 @@ a.inverse.btn-green,
 }
 
 .btn-shadow.btn-green {
-    background-color: #439fe0 !important;
+    background-color: #9cd6ff !important;
     border-radius: 65px !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-    border: 3px solid #439fe0 !important;
+    border: 3px solid #9cd6ff !important;
+    color: #292929;
 }
 
 .btn-border.btn-green,
@@ -1464,6 +1468,7 @@ textarea {
 
 /*   Hover Effects
 /*------------------------------------------*/
+
 @font-face {
     font-family: myFirstFont;
     src: url(../open-sans/OpenSans-Regular.ttf);
@@ -1472,6 +1477,7 @@ textarea {
 .open-sans {
     font-family: 'myFirstFont' !important;
 }
+
 .h figure {
     z-index: 1;
     position: relative;
@@ -1899,8 +1905,8 @@ textarea {
 }
 
 .p-y-md {
-    padding-top: 60px !important;
-    padding-bottom: 60px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
 }
 
 .p-a-lg {

@@ -61,7 +61,7 @@
     }
     
     .dropdown-content a {
-        color: #798188;
+        color:#292929;
         padding: 12px 10px;
         text-decoration: none;
         display: block;
@@ -72,7 +72,7 @@
         padding: 12px 10px;
         text-decoration: none;
         display: block;
-        background-color: #4b91f9;
+        background-color: #9cd6ff;
     }
     
     .dropdown:hover .dropdown-content {
@@ -88,7 +88,7 @@
 <body data-spy="scroll" data-target="#main-navbar" class="open-sans">
     <div class="main-container" id="page">
         <header id="nav1-1">
-            <nav class="navbar" id="main-navbar">
+            <nav class="navbar" id="main-navbar" style="background-color: #9cd6ff;">
                 <div class="container">
                     <div class="navbar-header">
                         <!-- Menu Button for Mobile Devices -->
@@ -103,26 +103,20 @@
                     <div class="collapse navbar-collapse" id="navbar-collapse">
                         <!-- Menu Links -->
                         <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html" class="smooth-scroll" style="color: black !important;">About us</a></li>
                             <!-- <li><a href="index.html" class="smooth-scroll" style="color: #404B55 !important;">Home</a></li> -->
-                            <li class="dropdown" style="background-color:white !important">
-                                <a class="dropbtn" style="cursor: pointer;" href="product.html">Products</a>
-                                <div class="dropdown-content" style="z-index:10 !important;border-radius:4px;left:0">
+                            <li class="dropdown">
+                                <a class="dropbtn" style="cursor: pointer;color:black" href="product.html">Products</a>
+                                <div class="dropdown-content" style="z-index:10 !important;border-radius:4px;left:0;color:black">
                                     <a href="mudcrab.html" style="border-top-left-radius: 4px;border-top-right-radius: 4px;">Mudcrab</a>
                                     <a href="shrimb.html">Vannamei</a>
                                     <a href="shrimb.html">Softshell Crab</a>
                                     <a href="shrimb.html" style="border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;">Tiger Prawns</a>
                                 </div>
                             </li>
-                            <li><a href="eco.html" class="smooth-scroll" style="color: #404B55 !important;">Tourism</a></li>
-                            <li><a href="Gallery.html" class="smooth-scroll" style="color: #404B55 !important;">Gallery</a></li>
-                            <li class="dropdown" style="background-color:white !important">
-                                <a class="dropbtn" style="cursor: pointer;">About us</a>
-                                <div class="dropdown-content" style="z-index:10 !important;border-radius:4px;left:0">
-                                    <a href="values.html" style="border-top-left-radius: 4px;border-top-right-radius: 4px;">Our Values</a>
-                                    <a href="mission.html" style="border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;">Mission and Vison</a>
-                                </div>
-                            </li>
-                            <li><a href="contact.html" class="smooth-scroll" style="color: #404B55 !important;">Contact us</a></li>
+                            <li><a href="eco.html" class="smooth-scroll" style="color: black !important;">Tourism</a></li>
+                            <li><a href="Gallery.html" class="smooth-scroll" style="color: black !important;">Gallery</a></li>
+                            <li><a href="contact.html" class="smooth-scroll" style="color: black !important;">Contact us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -138,25 +132,33 @@
                 <div class="item active">
                     <img src="1.jpg" alt="">
                     <div class="container">
-                        <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.31);border-radius: 6px;">
+                        <div class="carousel-caption">
                             <h2 class="carousel-title bounceInDown animated slow open-sans" style="font-size: 30px;">We are a fast growing aqua farm providing quality products</h2>
                             <!-- <h4 class="carousel-subtitle bounceInUp animated slow ">We are here for you</h4> -->
                         </div>
                     </div>
                 </div>
-                 <div class="item ">
+                <div class="item ">
                     <img src="3.jpg" alt="">
-                    <div class="container" >
-                        <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.31);border-radius: 6px;">
-                            <h2 class="carousel-title bounceInDown animated slow open-sans" style="font-size: 30px;"">Green and fresh Aqua products</h2>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h2 class="carousel-title bounceInDown animated slow open-sans" style="font-size: 30px;" ">Green and fresh Aqua products</h2>
                         </div>
                     </div>
                 </div>
                 <div class="item ">
-                    <img src="2.jpg" alt="">
-                    <div class="container">
-                        <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.31);border-radius: 6px;">
-                            <h2 class="carousel-title bounceInDown animated slow open-sans" style="font-size: 30px;padding-left:4px;padding-right:4px">We trade and promote tourism utilizing eco friendly and sustainable practices, supporting local communities</h2>
+                    <img src="2.jpg " alt=" ">
+                    <div class="container ">
+                        <div class="carousel-caption ">
+                            <h2 class="carousel-title bounceInDown animated slow open-sans " style="font-size: 30px;padding-left:4px;padding-right:4px ">We trade and promote tourism utilizing eco friendly and sustainable practices, supporting local communities</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item ">
+                    <img src="images/4.png " alt=" ">
+                    <div class="container ">
+                        <div class="carousel-caption ">
+                            <!-- <h2 class="carousel-title bounceInDown animated slow open-sans " style="font-size: 30px;padding-left:4px;padding-right:4px ">We trade and promote tourism utilizing eco friendly and sustainable practices, supporting local communities</h2> -->
                         </div>
                     </div>
                 </div>
@@ -170,26 +172,26 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-       <!--  <section id="content1-1" class="p-y-lg content-spotlight bg-edit">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="section-header text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                            <h2 class="m-b-md">Our Facilities</h2>
-                            <p class="lead m-b-md">We provide all the facilities according to your needs</p>
+       <!--  <section id="content1-1 " class="p-y-lg content-spotlight bg-edit ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-8 col-md-offset-2 ">
+                        <div class="section-header text-center wow fadeIn " style="visibility: visible; animation-name: fadeIn; ">
+                            <h2 class="m-b-md ">Our Facilities</h2>
+                            <p class="lead m-b-md ">We provide all the facilities according to your needs</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container p-a-0">
-                <div class="row m-a-0 spotlight-block img-left">
-                    <figure class="col-md-6 p-a-0">
-                        <div class="img-wrap bg-img" style="background-image:url('images/new/6.jpg')"></div>
+            <div class="container p-a-0 ">
+                <div class="row m-a-0 spotlight-block img-left ">
+                    <figure class="col-md-6 p-a-0 ">
+                        <div class="img-wrap bg-img " style="background-image:url( 'images/new/6.jpg') "></div>
                     </figure>
-                    <div class="col-md-6 bg-edit bg-blue text-white spotlight-text center-md">
-                        <div class="vertical-center-rel">
+                    <div class="col-md-6 bg-edit bg-blue text-white spotlight-text center-md ">
+                        <div class="vertical-center-rel ">
                             <h3 class="f-w-900 m-b-md wow ">We provide the following facilities:</h3>
-                            <p class="m-b-md">
+                            <p class="m-b-md ">
                                 <ul>
                                     <li>
                                         100acres of farm at a pristine and natural habitat for farming and uses organic materials.
@@ -206,34 +208,34 @@
                 </div>
             </div>
         </section> -->
-        <!-- <section id="testimonials6-1 " class="p-y-md bg-edit " style="padding-top:60px !important;padding-bottom: 0px !important;background-color: #439fe0;color: white !important;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="section-header text-center">
+        <!-- <section id="testimonials6-1 " class="p-y-md bg-edit " style="padding-top:60px !important;padding-bottom: 0px !important;background-color: #439fe0;color: white !important; ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-8 col-md-offset-2 ">
+                        <div class="section-header text-center ">
                             <h2>Locations</h2>
-                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur mollitia veritatis itaque temporibus quas labore asperiores deserunt.</p>
+                            <p class="lead ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur mollitia veritatis itaque temporibus quas labore asperiores deserunt.</p>
                         </div>
                     </div>
                 </div>
-                <div class="row testimonials" style="height: 230px;">
-                    <div class="col-md-8 col-md-offset-2 big-img-left">
-                        <div id="carousel-testimonial2" class="carousel slide carousel-fade carousel-testimonial-single" data-ride="carousel">
-                            <ol class="carousel-indicators inverse">
-                                <li data-target="#carousel-testimonial2" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-testimonial2" data-slide-to="1" class=""></li>
-                                <li data-target="#carousel-testimonial2" data-slide-to="2" class=""></li>
+                <div class="row testimonials " style="height: 230px; ">
+                    <div class="col-md-8 col-md-offset-2 big-img-left ">
+                        <div id="carousel-testimonial2 " class="carousel slide carousel-fade carousel-testimonial-single " data-ride="carousel ">
+                            <ol class="carousel-indicators inverse ">
+                                <li data-target="#carousel-testimonial2 " data-slide-to="0 " class="active "></li>
+                                <li data-target="#carousel-testimonial2 " data-slide-to="1 " class=" "></li>
+                                <li data-target="#carousel-testimonial2 " data-slide-to="2 " class=" "></li>
                             </ol>
-                            <div class="carousel-inner" role="listbox">
-                                <div class="item active">
-                                    <div class="col-md-12  text-center">
+                            <div class="carousel-inner " role="listbox ">
+                                <div class="item active ">
+                                    <div class="col-md-12 text-center ">
                                         <figure>
-                                            <img src="images/map.jpg" class=" m-x-auto" style="width:100% !important;">
+                                            <img src="images/map.jpg " class=" m-x-auto " style="width:100% !important; ">
                                         </figure>
                                     </div>
-                                    <div class="col-md-12" style="padding:50px 20px !important">
+                                    <div class="col-md-12 " style="padding:50px 20px !important ">
                                         <blockquote>
-                                            <p class="m-b-md p-opacity f-w-700">"Possimus soluta odio amet debitis eligendi sapiente! Quas labore facilis id voluptas, perferendis qui velit animi, amet repellat ad dolorem aliquid quo officiis." </p>
+                                            <p class="m-b-md p-opacity f-w-700 ">"Possimus soluta odio amet debitis eligendi sapiente! Quas labore facilis id voluptas, perferendis qui velit animi, amet repellat ad dolorem aliquid quo officiis. " </p>
                                         </blockquote>
                                     </div>
                                 </div>
@@ -243,199 +245,116 @@
                 </div>
             </div>
         </section> -->
-      <!--   <section id="content3-1" class="p-y-lg bg-edit" style="outline-offset: -3px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="section-header text-center">
+      <!--   <section id="content3-1 " class="p-y-lg bg-edit " style="outline-offset: -3px; ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-8 col-md-offset-2 ">
+                        <div class="section-header text-center ">
                             <h2>Take a look at our products</h2>
-                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur mollitia veritatis itaque temporibus quas labore asperiores deserunt.</p>
+                            <p class="lead ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur mollitia veritatis itaque temporibus quas labore asperiores deserunt.</p>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12 content-block c3">
-                        <div class="col-sm-4">
-                            <img src="images/new/1.png" alt="" class="img-responsive img-rounded" style="border-radius: 6px; border-color: rgb(105, 105, 110); border-style: none; border-width: 1px;">
-                            <h5 class="m-t">Tiger Prawns</h5>
-                            <p class="p-opacity">Fresh tiger prawns farmed in our clean and technologically driven farm at pristine location serving you at any part of the world.</p>
+                <div class="row ">
+                    <div class="col-md-12 content-block c3 ">
+                        <div class="col-sm-4 ">
+                            <img src="images/new/1.png " alt=" " class="img-responsive img-rounded " style="border-radius: 6px; border-color: rgb(105, 105, 110); border-style: none; border-width: 1px; ">
+                            <h5 class="m-t ">Tiger Prawns</h5>
+                            <p class="p-opacity ">Fresh tiger prawns farmed in our clean and technologically driven farm at pristine location serving you at any part of the world.</p>
                         </div>
-                        <div class="col-sm-4">
-                            <img src="images//new/vannemai.png" alt="" class="img-responsive img-rounded" style="border-radius: 6px; border-color: rgb(105, 105, 110); border-style: none; border-width: 1px;">
-                            <h5 class="m-t">Vannamei</h5>
-                            <p class="p-opacity">Fresh Vannamei farmed in our clean and technologically driven farm at pristine location serving you at any part of the world.</p>
+                        <div class="col-sm-4 ">
+                            <img src="images//new/vannemai.png " alt=" " class="img-responsive img-rounded " style="border-radius: 6px; border-color: rgb(105, 105, 110); border-style: none; border-width: 1px; ">
+                            <h5 class="m-t ">Vannamei</h5>
+                            <p class="p-opacity ">Fresh Vannamei farmed in our clean and technologically driven farm at pristine location serving you at any part of the world.</p>
                         </div>
-                        <div class="col-sm-4">
-                            <img src="images/new/mud_crab.png" alt="" class="img-responsive img-rounded" style="border-radius: 6px; border-color: rgb(105, 105, 110); border-style: none; border-width: 1px;">
-                            <h5 class="m-t">Mud Crab</h5>
-                            <p class="p-opacity">Delicious large mud crabs or Green mangrove crabs (Scylla Serrata) popular all over the work for its taste are scientifically grown.</p>
+                        <div class="col-sm-4 ">
+                            <img src="images/new/mud_crab.png " alt=" " class="img-responsive img-rounded " style="border-radius: 6px; border-color: rgb(105, 105, 110); border-style: none; border-width: 1px; ">
+                            <h5 class="m-t ">Mud Crab</h5>
+                            <p class="p-opacity ">Delicious large mud crabs or Green mangrove crabs (Scylla Serrata) popular all over the work for its taste are scientifically grown.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section> -->
-       <!--  <section id="hero1-1" class="hero bg-img" style="outline-offset: -3px;height:530px !important">
-            <div class="overlay"></div>
-            <div class="container vertical-center-rel">
-                <div class="row">
-                    <div class="col-md-12" style="text-align: center !important;">
-                        <h1 class="text-white p-t-md">Let's make something extraordinary together</h1>
+       <!--  <section id="hero1-1 " class="hero bg-img " style="outline-offset: -3px;height:530px !important ">
+            <div class="overlay "></div>
+            <div class="container vertical-center-rel ">
+                <div class="row ">
+                    <div class="col-md-12 " style="text-align: center !important; ">
+                        <h1 class="text-white p-t-md ">Let's make something extraordinary together</h1>
                         <p class="lead text-white m-b-md ">We have been collaborating with brands and agencies to build meaningful digital interactions since 2007</p>
                     </div>
                 </div>
             </div>
         </section> -->
-        <section id="features10-1" class="p-y-lg bg-edit" style="outline-offset: -3px;padding-bottom:165px !important">
+        <section id="features10-1 " class="p-y-lg bg-edit " style="outline-offset: -3px;padding-bottom:20px !important;padding-top:45px !important">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="section-header text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                            <h2>About us. What we love to do.</h2>
-                            <p class="lead">Our approach is simple and iterative.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row features-tab m-y">
-                    <div class="tab-title current">
-                        <p class="f-w-900 m-b-0">Who we are<i class="fa fa-caret-right i-right"></i></p>
-                    </div>
-                    <div class="tab-content content-align-md">
-                        <div class="row text-center">
-                            <div class="col-md-12">
-                                <h4>Six technocrats from different parts of the world</h4>
-                                <p class="p-tab m-b-md">India, Middle East &amp; United States.</p>
-                            </div>
-                        </div>
-                        <div class="row y-middle c2">
-                            <div class="col-md-6">
-                                <div class="features-block">
-                                    <div class="col-sm-12 icon-left m-b-md clearfix">
-                                        <i class="icon-target2"></i>
-                                        <p>Six technocrats from different parts of the world (India, Middle East &United States) formed Hugua Marine an aqua farming company for the purpose of technologically driven farming, promoting trade / exports and tourism at Kumta, Karnataka, India.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <img src="images/new/2.png" class="img-responsive m-x-auto" style="border-radius: 10px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-title">
-                        <p class="f-w-900 m-b-0">Our Values<i class="fa fa-caret-right i-right"></i></p>
-                    </div>
-                    <div class="tab-content">
-                        <div class="row text-center">
-                            <div class="col-md-12">
-                                <h4>It's about making ideas happens</h4>
-                                <p class="p-tab m-b-md">Our success is built upon a quality and distinct set of strong values that run through all our business activities.</p>
-                                <ul>
-                                    <li style="text-align:left">Focus on quality,technologyand innovation.</li>
-                                    <li style="text-align:left">Show humanity to all lives we involve with.</li>
-                                    <li style="text-align:left">Be sincere and passionate about our customers, employees,shareholders and the community where we work.</li>
-                                    <li style="text-align:left">Conductand grow our business in a responsible and sustainable way.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-title">
-                        <p class="f-w-900 m-b-0">Mission &amp; Vision<i class="fa fa-caret-right i-right"></i></p>
-                    </div>
-                    <div class="tab-content content-align-md">
-                        <div class="row text-center">
-                            <div class="col-md-12">
-                                <p class="p-tab m-b-md">We are defined and governed by our core values that focus on unsurpassed customer care and respect for our employees and the community.</p>
-                            </div>
-                        </div>
-                        <div class="row video y-middle c2">
-                            <div class="col-md-8">
-                                <img src="images/new/5.jpg" alt="" class="img-responsive m-x-auto">
-                            </div>
-                            <div class="col-md-4">
-                                <h5 class="f-w-900">Our Mission and vision</h5>
-                                <p>Our mission is to always be a successful company, expanding, diversifying and operating throughout India and internationally. We aim to be recognized as a leading aqua farming, trading /exporting and tourism promoting company by providing unparalleled expertise and innovation in our chosen business activities.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /End Tab Content -->
-                    <!--Tab Item -->
-                    <!-- <div class="tab-title">
-                        <p class="f-w-900 m-b-0">Interactive Design &amp; Product Development<i class="fa fa-caret-right i-right"></i></p>
-                    </div> -->
-                    <!--  <div class="tab-content">
-                        <div class="row text-center">
-                            <div class="col-md-12">
-                                <h4>Easy to use applications for every platform</h4>
-                                <p class="p-tab m-b-md">Omnis cumque nulla maiores recusandae blanditiis et explicabo nobis temporibus, aspernatur esse animi voluptates quasi harum ipsum quis nobis molestias.</p>
-                            </div>
-                        </div>
-                        <div class="row c2">
-                            <div class="col-md-6">
-                                <div class="features-block">
-                                    <div class="col-sm-12 icon-left m-b-md clearfix">
-                                        <i class="icon-mobile"></i>
-                                        <h5 class="m-t f-w-900">Responsive Design</h5>
-                                        <p>Magni, inventore iusto, eum expedita, dolorum placeat in nisi quisquam autem iure, nemo sapiente ipsa obcaecati iure.</p>
-                                    </div>
-                                    <div class="col-sm-12 icon-left clearfix">
-                                        <i class="icon-download2"></i>
-                                        <h5 class="m-t f-w-900">Third-party Integrations</h5>
-                                        <p>Maxime reprehenderit soluta accusamus deleniti! Dolore nihil ipsam, veniam fugiat neque voluptas ex commodi doloribus.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="features-block">
-                                    <div class="col-sm-12 icon-left m-b-md clearfix">
-                                        <i class="icon-basket"></i>
-                                        <h5 class="m-t f-w-900">eCommerce / Retail</h5>
-                                        <p>Magni, inventore iusto, eum expedita, dolorum placeat in nisi quisquam autem iure, nemo sapiente ipsa obcaecati iure.</p>
-                                    </div>
-                                    <div class="col-sm-12 icon-left clearfix">
-                                        <i class="icon-tablet2"></i>
-                                        <h5 class="m-t f-w-900">Mobile Development</h5>
-                                        <p>Maxime reprehenderit soluta accusamus deleniti! Dolore nihil ipsam, veniam fugiat neque voluptas ex commodi doloribus.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- /End Tab Content -->
-                    <!--Tab Item -->
-               <!--      <div class="tab-title" style="background-color: #ffffff !important">
-                        <a href="About.html">
-                            <p class="f-w-900 m-b-0">THE FUTURE:OUR PROMISE<i class="fa fa-caret-right i-right"></i></p>
-                        </a>
-                    </div>
-                    <div class="tab-content content-align-md">
-                        <div class="row text-center">
-                            <div class="col-md-12">
-                                <h4>Future</h4>
-                            </div>
-                        </div>
-                        <div class="row features-block">
-                            <div class="col-md-10 col-md-offset-1 img-left m-b clearfix">
-                                <img src="images/farm1.jpg" style="border-radius:6px">
-                                <h5 class="m-t f-w-900">Professionalism</h5>
-                                <p>The professionalism and commitment of our business allows us to scale new heights in excellence,expand into new markets and new business sectors,and build upon remarkable achievement.</p>
-                            </div>
-                            <div class="col-md-10 col-md-offset-1 img-left clearfix">
-                                <img src="images/farm2.jpg" style="border-radius:6px">
-                                <h5 class="m-t f-w-900">Our vision for future</h5>
-                                <p>No matter how big we grow, challenges we overcome and opportunities we seize,we will never forget our startup or the vision for our future.</p>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
+             <h2 class="m-b-md " style="font-size: 25px;margin-bottom:7px !important;text-decoration: underline;color:#292929">About us</h2>
+                <p class="lead m-b-md " style="font-size: 17px;margin-bottom: 0px !important;color:#292929">Few technocrats from different parts of the world formed Hugua Marine an aqua farming company for the purpose of technologically driven farming, promoting trade / exports and tourism at Kumta, Karnataka, India.100acres of farm at a pristine and natural habitat for farming and uses organic materials. Abundant support of natural farmers and local communities. Guidance from MPEDA, RGCA and other scientific and research organizations.</p>
+                
+                               <!--  <ul style="padding-left: 18px; ">
+                                     <li>
+                                       Our success is built upon a quality and distinct set of strong values that run through all our business activities.
+                                    </li>
+                                    <li>
+                                       Focus on quality, technology and innovation.
+                                    </li>
+                                    <li>Show humanity to all lives we involve with.
+                                    </li>
+                                    <li>Be sincere and passionate about our customers, employees, shareholders and the community where we work.
+                                    </li>
+                                    <li>Conduct and grow our business in a responsible and sustainable way.
+                                    </li>
+                                </ul> -->
+                            
             </div>
         </section>
-       <!--  <section id="content11-1" class="content-split bg-edit bg-light" style="outline-offset: -3px;">
-            <div class="container">
-                <div class="col-md-6 img-block left-block bg-img" style="background-image: url(&quot;images/new/7.jpg&quot;); background-color: rgba(0, 0, 0, 0); background-size: cover; background-repeat: no-repeat; background-position: center center; background-attachment: scroll;"></div>
-                <div class="col-md-5 col-md-push-7 content-block">
-                    <div class="vertical-center-rel">
-                        <h3 class="f-w-900 m-b-md wow slideInRight" style="visibility: visible; animation-name: slideInRight;">Tourism</h3>
-                        <p class="m-b-md">Escape for busy life, experience farm life, learn some basics of aqua farming, relax, breathe abundant oxygen, refresh yourself and enjoy natural and hut life at a rural pristine & beautiful location. </p>
-                        <a href="eco.html" class="btn btn-shadow btn-green smooth-scroll">View Details</a>
+         <section id="features10-1 " class="p-y-lg bg-edit " style="outline-offset: -3px;padding-bottom:20px !important;padding-top:0px !important ">
+            <div class="container ">
+             <h2 class="m-b-md " style="font-size: 20px;margin-bottom:7px !important;text-decoration: underline;color:#292929">Our Values</h2>
+                <!-- <p class="lead m-b-md " style="font-size: 17px;margin-bottom: 0px !important ">Six technocrats from different parts of the world formed Hugua Marine an aqua farming company for the purpose of technologically driven farming, promoting trade / exports and tourism at Kumta, Karnataka, India.100acres of farm at a pristine and natural habitat for farming and uses organic materials. Abundant support of natural farmers and local communities. Guidance from MPEDA, RGCA and other scientific and research organizations.</p> -->
+                
+                                <ul style="padding-left: 18px;;color:#292929">
+                                     <li style="color:#292929">
+                                       Our success is built upon a quality and distinct set of strong values that run through all our business activities.
+                                    </li>
+                                    <li style="color:#292929">
+                                       Focus on quality, technology and innovation.
+                                    </li>
+                                    <li style="color:#292929">Show humanity to all lives we involve with.
+                                    </li>
+                                    <li style="color:#292929">Be sincere and passionate about our customers, employees, shareholders and the community where we work.
+                                    </li>
+                                    <li style="color:#292929">Conduct and grow our business in a responsible and sustainable way.
+                                    </li>
+                                </ul>
+                            
+            </div>
+        </section>
+        <section id="features10-1 " class="p-y-lg bg-edit " style="outline-offset: -3px;padding-bottom:45px !important ;padding-top:0px !important">
+            <div class="container ">
+             <h2 class="m-b-md " style="font-size: 20px;margin-bottom:7px !important;text-decoration: underline;color:#292929">Mission and vision</h2>
+               <!--  <p class="lead m-b-md " style="font-size: 17px;margin-bottom: 0px !important ">Six technocrats from different parts of the world formed Hugua Marine an aqua farming company for the purpose of technologically driven farming, promoting trade / exports and tourism at Kumta, Karnataka, India.100acres of farm at a pristine and natural habitat for farming and uses organic materials. Abundant support of natural farmers and local communities. Guidance from MPEDA, RGCA and other scientific and research organizations.</p> -->
+                
+                                <ul style="padding-left: 18px; ">
+                                    <li style="color:#292929">
+                                      We are defined and governed by our core values that focus on unsurpassed customer care and respect for our employees and the community.
+                                    </li>
+                                    <li style="color:#292929">
+                                       Our mission is to always be a successful company, expanding, diversifying and operating throughout India and internationally. We aim to be recognized as a leading aqua farming, trading /exporting and tourism promoting company by providing unparalleled expertise and innovation in our chosen business activities.
+                                    </li>
+                                </ul>
+                            
+            </div>
+        </section>
+       <!--  <section id="content11-1 " class="content-split bg-edit bg-light " style="outline-offset: -3px; ">
+            <div class="container ">
+                <div class="col-md-6 img-block left-block bg-img " style="background-image: url(&quot;images/new/7.jpg&quot;); background-color: rgba(0, 0, 0, 0); background-size: cover; background-repeat: no-repeat; background-position: center center; background-attachment: scroll; "></div>
+                <div class="col-md-5 col-md-push-7 content-block ">
+                    <div class="vertical-center-rel ">
+                        <h3 class="f-w-900 m-b-md wow slideInRight " style="visibility: visible; animation-name: slideInRight; ">Tourism</h3>
+                        <p class="m-b-md ">Escape for busy life, experience farm life, learn some basics of aqua farming, relax, breathe abundant oxygen, refresh yourself and enjoy natural and hut life at a rural pristine & beautiful location. </p>
+                        <a href="eco.html " class="btn btn-shadow btn-green smooth-scroll ">View Details</a>
                     </div>
                 </div>
             </div>
@@ -443,16 +362,16 @@
         <!-- =========================
            CONTENT SECTION
         ============================== -->
-        <!--  <section id="content12-1" class="content-split bg-edit bg-light" style="outline-offset: -3px;">
-            <div class="container">
+        <!--  <section id="content12-1 " class="content-split bg-edit bg-light " style="outline-offset: -3px; ">
+            <div class="container ">
                 
-                <div class="col-md-6 img-block bg-img" style="background-image: url(&quot;images/uploads/crab_.jpg&quot;); background-color: rgba(0, 0, 0, 0); background-size: cover; background-repeat: no-repeat; background-position: center center; background-attachment: scroll;"></div>
+                <div class="col-md-6 img-block bg-img " style="background-image: url(&quot;images/uploads/crab_.jpg&quot;); background-color: rgba(0, 0, 0, 0); background-size: cover; background-repeat: no-repeat; background-position: center center; background-attachment: scroll; "></div>
                 
-                <div class="col-md-6 content-block">
-                    <div class="vertical-center-rel">
-                        <h3 class="f-w-900 m-b-md wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">We craft experiences that transforms brands.</h3>
-                        <p class="m-b-md">Democritum inciderint nam ut, duo ne rebum tibique molestiae, mediocrem incorrupte dissentiunt has in. Vidisse gloriatur eum in, alia docendi molestie est te. Nam facer erant aeterno te, sed no utamur perfecto.</p>
-                        <a href="" class="btn btn-shadow btn-green smooth-scroll">WORK WITH US</a>
+                <div class="col-md-6 content-block ">
+                    <div class="vertical-center-rel ">
+                        <h3 class="f-w-900 m-b-md wow slideInLeft " style="visibility: visible; animation-name: slideInLeft; ">We craft experiences that transforms brands.</h3>
+                        <p class="m-b-md ">Democritum inciderint nam ut, duo ne rebum tibique molestiae, mediocrem incorrupte dissentiunt has in. Vidisse gloriatur eum in, alia docendi molestie est te. Nam facer erant aeterno te, sed no utamur perfecto.</p>
+                        <a href=" " class="btn btn-shadow btn-green smooth-scroll ">WORK WITH US</a>
                     </div>
                 </div>
             </div>
@@ -461,12 +380,12 @@
         <!-- =========================
             CTA SECTION
         ============================== -->
-        <!--   <section id="cta2" class="p-y cta bg-edit bg-blue" style="padding-top:100px !important;padding-bottom: 100px !important;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center single-line">
-                        <p class="lead text-white m-r-md f-w-700">Unlock your potential. Become a master of code.</p>
-                        <a href="" class="btn btn-ghost btn-md">Get started now<i class="fa fa-arrow-right m-l"></i></a>
+        <!--   <section id="cta2 " class="p-y cta bg-edit bg-blue " style="padding-top:100px !important;padding-bottom: 100px !important; ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-8 col-md-offset-2 text-center single-line ">
+                        <p class="lead text-white m-r-md f-w-700 ">Unlock your potential. Become a master of code.</p>
+                        <a href=" " class="btn btn-ghost btn-md ">Get started now<i class="fa fa-arrow-right m-l "></i></a>
                     </div>
                 </div>
             </div>
@@ -474,109 +393,109 @@
         <!-- =========================
            VIDEO
         ============================== -->
-        <!-- <section id="video3-1" class="p-y-lg content-align-md bg-edit" style="outline-offset: -3px;">
-            <div class="container">
-                <div class="row video y-middle c2">
-                    <div class="col-md-5 col-md-push-6">
-                        <h3 class="f-w-900">Learn with the best</h3>
-                        <p class="h5">Our instructors take you through course material, step by step, in our high-quality video lessons.</p>
-                        <p class="m-b-0">Natus cumque odio sit harum facilis excepturi deleniti voluptatibus odit alias perspiciatis eligendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <!-- <section id="video3-1 " class="p-y-lg content-align-md bg-edit " style="outline-offset: -3px; ">
+            <div class="container ">
+                <div class="row video y-middle c2 ">
+                    <div class="col-md-5 col-md-push-6 ">
+                        <h3 class="f-w-900 ">Learn with the best</h3>
+                        <p class="h5 ">Our instructors take you through course material, step by step, in our high-quality video lessons.</p>
+                        <p class="m-b-0 ">Natus cumque odio sit harum facilis excepturi deleniti voluptatibus odit alias perspiciatis eligendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
-                    <div class="col-md-6 col-md-pull-5">
-                        <div class="videoWrapper">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/sU3FkzUKHXU" allowfullscreen=""></iframe>
+                    <div class="col-md-6 col-md-pull-5 ">
+                        <div class="videoWrapper ">
+                            <iframe width="560 " height="315 " src="https://www.youtube.com/embed/sU3FkzUKHXU " allowfullscreen=" "></iframe>
                             
                         </div>
                     </div>
                 </div>
             </div>
         </section> -->
-        <!-- <section id="video1-1" class="p-y-lg bg-video video-play">
-            <div class="container p-y-lg">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center">
-                        <div class="bg-popup m-b-md">
-                            <a class="mp-iframe" href="https://www.youtube.com/watch?v=NOPzuPkEpW0"><i class="fa fa-play-circle"></i></a>
+        <!-- <section id="video1-1 " class="p-y-lg bg-video video-play ">
+            <div class="container p-y-lg ">
+                <div class="row ">
+                    <div class="col-md-8 col-md-offset-2 text-center ">
+                        <div class="bg-popup m-b-md ">
+                            <a class="mp-iframe " href="https://www.youtube.com/watch?v=NOPzuPkEpW0 "><i class="fa fa-play-circle "></i></a>
                         </div>
-                        <h4 class="text-white f-w-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, impedit molestiae fugiat modi nesciunt est.</h4>
+                        <h4 class="text-white f-w-400 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, impedit molestiae fugiat modi nesciunt est.</h4>
                     </div>
                 </div>
             </div>
         </section> -->
-       <!--  <section id="features10-1" class="p-y-lg bg-edit" style="outline-offset: -3px;padding-bottom:165px !important">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="section-header text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+       <!--  <section id="features10-1 " class="p-y-lg bg-edit " style="outline-offset: -3px;padding-bottom:165px !important ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-8 col-md-offset-2 ">
+                        <div class="section-header text-center wow fadeIn " style="visibility: visible; animation-name: fadeIn; ">
                             <h2>SUSTAINABILITY</h2>
-                            <p class="lead">Sustainable solutions are more viable in the long term. Consequently we are targeting the following areas.</p>
+                            <p class="lead ">Sustainable solutions are more viable in the long term. Consequently we are targeting the following areas.</p>
                         </div>
                     </div>
                 </div>
-                <div class="row features-tab m-y">
-                    <div class="tab-title current">
-                        <p class="f-w-900 m-b-0">Community<i class="fa fa-caret-right i-right"></i></p>
+                <div class="row features-tab m-y ">
+                    <div class="tab-title current ">
+                        <p class="f-w-900 m-b-0 ">Community<i class="fa fa-caret-right i-right "></i></p>
                     </div>
-                    <div class="tab-content content-align-md">
-                        <div class="row text-center">
-                            <div class="col-md-12">
+                    <div class="tab-content content-align-md ">
+                        <div class="row text-center ">
+                            <div class="col-md-12 ">
                                 <h4>Community</h4>
                             </div>
                         </div>
-                        <div class="row y-middle c2">
-                            <div class="col-md-12">
-                                <div class="features-block">
-                                    <div class="col-sm-12 icon-left m-b-md clearfix">
-                                        <i class="icon-target2"></i>
+                        <div class="row y-middle c2 ">
+                            <div class="col-md-12 ">
+                                <div class="features-block ">
+                                    <div class="col-sm-12 icon-left m-b-md clearfix ">
+                                        <i class="icon-target2 "></i>
                                         <p>We are committed to making a positive impact on the communities in which we operate and to making a distinctive contribution to education, inequality and social development. We achieve this through the establishment of effective partnerships and programmes that make the best use of the enthusiasm and skills. We encourage everyone to take part in voluntary initiatives and support the work of Non-Governmental Organisations (NGO). </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-title">
-                        <p class="f-w-900 m-b-0">Environment<i class="fa fa-caret-right i-right"></i></p>
+                    <div class="tab-title ">
+                        <p class="f-w-900 m-b-0 ">Environment<i class="fa fa-caret-right i-right "></i></p>
                     </div>
-                    <div class="tab-content">
-                        <div class="row text-center">
-                            <div class="col-md-12">
+                    <div class="tab-content ">
+                        <div class="row text-center ">
+                            <div class="col-md-12 ">
                                 <h4>Environment</h4>
                                 <ul>
-                                    <li style="text-align:left">Environmental responsibility is a key element in making aqua farming a sustainable business. We have an impact on the environment in many ways – through the resources we use, the way we operate, the waste we generate and the impact of our products on enhancing the environment for others.</li>
-                                    <li style="text-align:left">The recycling and reuse of materials is a fundamental element of what we do. This will help us provide enhanced solutions and services for our customers as well as reducing our impact on the environment.</li>
-                                    <li style="text-align:left">We use less power consuming systems and electrical gadgets in our projects. We are now promoting solar energy to be the future energy alternative, and in our work.</li>
+                                    <li style="text-align:left ">Environmental responsibility is a key element in making aqua farming a sustainable business. We have an impact on the environment in many ways – through the resources we use, the way we operate, the waste we generate and the impact of our products on enhancing the environment for others.</li>
+                                    <li style="text-align:left ">The recycling and reuse of materials is a fundamental element of what we do. This will help us provide enhanced solutions and services for our customers as well as reducing our impact on the environment.</li>
+                                    <li style="text-align:left ">We use less power consuming systems and electrical gadgets in our projects. We are now promoting solar energy to be the future energy alternative, and in our work.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-title">
-                        <p class="f-w-900 m-b-0">Marketplace<i class="fa fa-caret-right i-right"></i></p>
+                    <div class="tab-title ">
+                        <p class="f-w-900 m-b-0 ">Marketplace<i class="fa fa-caret-right i-right "></i></p>
                     </div>
-                    <div class="tab-content content-align-md">
-                        <div class="row text-center">
-                            <div class="col-md-12">
+                    <div class="tab-content content-align-md ">
+                        <div class="row text-center ">
+                            <div class="col-md-12 ">
                                 <h4>Marketplace</h4>
                             </div>
                         </div>
-                        <div class="row video y-middle c2">
-                            <div class="col-md-12">
+                        <div class="row video y-middle c2 ">
+                            <div class="col-md-12 ">
                                 <p>We committed to delivering excellent value product to customers. By working closely with its clients, supply chain, the group aims to provide quality products that meet both the requirements of the customer and international standards.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-title" style="background-color: #ffffff !important">
-                        <a href="About.html">
-                            <p class="f-w-900 m-b-0">Workplace<i class="fa fa-caret-right i-right"></i></p>
+                    <div class="tab-title " style="background-color: #ffffff !important ">
+                        <a href="About.html ">
+                            <p class="f-w-900 m-b-0 ">Workplace<i class="fa fa-caret-right i-right "></i></p>
                         </a>
                     </div>
-                    <div class="tab-content content-align-md">
-                        <div class="row text-center">
-                            <div class="col-md-12">
+                    <div class="tab-content content-align-md ">
+                        <div class="row text-center ">
+                            <div class="col-md-12 ">
                                 <h4>Workplace</h4>
                             </div>
                         </div>
-                        <div class="row features-block">
-                            <div class="col-md-12 col-md-offset-1  m-b clearfix">
+                        <div class="row features-block ">
+                            <div class="col-md-12 col-md-offset-1 m-b clearfix ">
                                 <p>We recognise the value and importance of our business and believe that the success of our business depends on quality, cleanliness and standards. Our policies not only comply with all relevant legislation but also seek to go beyond that to ensure the working environment within all areas of our business offers fairness and quality in every respect. </p>
                             </div>
                         </div>
@@ -584,13 +503,13 @@
                 </div>
             </div>
         </section> -->
-        <section id="contact7-1" class="p-t-md bg-edit bg-dark" style="background-color: #439fe0 !important;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 c4 contact-divider text-white p-b-md text-center">
-                        <div class="col-md-3">
-                            <i class="icon-map-marker"></i>
-                            <h5 class="f-w-900">Address</h5>
+        <section id="contact7-1 " class="p-t-md bg-edit bg-dark " style="background-color: #9cd6ff !important; ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-12 c4 contact-divider text-white p-b-md text-center ">
+                        <div class="col-md-3 " style="color:#292929 ">
+                            <i class="icon-map-marker " style="color:#292929 "></i>
+                            <h5 class="f-w-900 ">Address</h5>
                             <p>HUGUA MARINE
                                 <br>NO. 616/3, First Floor
                                 <br> Ramnagara, Mirjan Post
@@ -598,21 +517,21 @@
                                 <br>Karnataka – 581340
                                 <br>India</p>
                         </div>
-                        <div class="col-md-3">
-                            <i class="icon-phone"></i>
-                            <h5 class="f-w-900">Phone number (24/7)</h5>
+                        <div class="col-md-3 " style="color:#292929 ">
+                            <i class="icon-phone " style="color:#292929 "></i>
+                            <h5 class="f-w-900 ">Phone number (24/7)</h5>
                             <p>Mobile:+91 7019524023
                                 <br>Mobile: +91 9901899003</p>
                         </div>
-                        <div class="col-md-3">
-                            <i class="icon-mail"></i>
-                            <h5 class="f-w-900">Email</h5>
-                            <p><a href="mailto:mail@themedept.com" class="inverse">info@huguamarine.com</a>
+                        <div class="col-md-3 " style="color:#292929 ">
+                            <i class="icon-mail " style="color:#292929 "></i>
+                            <h5 class="f-w-900 ">Email</h5>
+                            <p><a href=" "  style="color:#292929 ">info@huguamarine.com</a>
                             </p>
                         </div>
-                        <div class="col-md-3">
-                            <i class="icon-clock"></i>
-                            <h5 class="f-w-900">Working Hours</h5>
+                        <div class="col-md-3 " style="color:#292929 ">
+                            <i class="icon-clock " style="color:#292929 "></i>
+                            <h5 class="f-w-900 ">Working Hours</h5>
                             <p>Mon to Sat - 9 AM to 11 PM
                                 <br> Sunday 10 AM to 6 PM</p>
                         </div>
@@ -620,24 +539,24 @@
                 </div>
             </div>
         </section>
-        <footer id="footer2-1" class="p-y-md footer f2 bg-edit bg-grey" style="outline-offset: -3px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4 col-xs-12">
+        <footer id="footer2-1 " class="p-y-md footer f2 bg-edit bg-grey " style="outline-offset: -3px;background-color:#ffffff !important ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-sm-4 col-xs-12 "  style="color:#292929 ">
                         <p>All rights reserved - Copyright © 2016 Hugua Marine </p>
                     </div>
-                    <div class="col-sm-4 col-xs-12 text-center">
-                        <ul class="footer-social">
-                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                    <div class="col-sm-4 col-xs-12 text-center " >
+                        <ul class="footer-social ">
+                            <li><a href=" "><i class="fa fa-facebook "  style="color:#292929 "></i></a></li>
+                            <li><a href=" "><i class="fa fa-twitter "  style="color:#292929 "></i></a></li>
+                            <li><a href=" "><i class="fa fa-google-plus "  style="color:#292929 "></i></a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-4 col-xs-12">
-                        <ul class="footer-links">
-                            <li><a href="" title="" class="edit">License</a></li>
-                            <li><a href="" title="" class="edit">Terms of use</a></li>
-                            <li><a href="mailto:mail@themedept.com" class="edit"><i class="fa fa-envelope-o"></i>Get in touch</a></li>
+                    <div class="col-sm-4 col-xs-12 ">
+                        <ul class="footer-links ">
+                            <li><a href=" " title=" " class="edit "  style="color:#292929 ">License</a></li>
+                            <li><a href=" " title=" " class="edit "  style="color:#292929 ">Terms of use</a></li>
+                            <li><a href="mailto:mail@themedept.com " class="edit "  style="color:#292929 "><i class="fa fa-envelope-o "  style="color:#292929 "></i>Get in touch</a></li>
                         </ul>
                     </div>
                 </div>
@@ -647,29 +566,29 @@
     <!-- =========================
          SCRIPTS 
     ============================== -->
-    <script id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script>
-    <script src="js/plugins/jquery1.11.2.min.js"></script>
-    <script src="js/plugins/bootstrap.min.js"></script>
-    <script src="js/plugins/jquery.easing.1.3.min.js"></script>
-    <script src="js/plugins/jquery.countTo.js"></script>
-    <script src="js/plugins/jquery.formchimp.min.js"></script>
-    <script src="js/plugins/jquery.jCounter-0.1.4.js"></script>
-    <script src="js/plugins/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins/jquery.vide.min.js"></script>
-    <script src="js/plugins/owl.carousel.min.js"></script>
-    <script src="js/plugins/spectragram.min.js"></script>
-    <script src="js/plugins/twitterFetcher_min.js"></script>
-    <script src="js/plugins/wow.min.js"></script>
-    <script src="js/plugins/picker.js"></script>
-    <script src="js/plugins/picker.date.js"></script>
-    <script id="twitter-wjs" src="js/widjets.js"></script>
-    <!-- <script src="js/plugins/bootstrap.min.js"></script> -->
-    <!-- <script src="js/plugins/owl.carousel.min.js"></script> -->
-    <!-- <script src="js/plugins/wow.min.js"></script> -->
-    <!-- <script src="js/custom.js"></script> -->
+    <script id="twitter-wjs " src="https://platform.twitter.com/widgets.js "></script>
+    <script src="js/plugins/jquery1.11.2.min.js "></script>
+    <script src="js/plugins/bootstrap.min.js "></script>
+    <script src="js/plugins/jquery.easing.1.3.min.js "></script>
+    <script src="js/plugins/jquery.countTo.js "></script>
+    <script src="js/plugins/jquery.formchimp.min.js "></script>
+    <script src="js/plugins/jquery.jCounter-0.1.4.js "></script>
+    <script src="js/plugins/jquery.magnific-popup.min.js "></script>
+    <script src="js/plugins/jquery.vide.min.js "></script>
+    <script src="js/plugins/owl.carousel.min.js "></script>
+    <script src="js/plugins/spectragram.min.js "></script>
+    <script src="js/plugins/twitterFetcher_min.js "></script>
+    <script src="js/plugins/wow.min.js "></script>
+    <script src="js/plugins/picker.js "></script>
+    <script src="js/plugins/picker.date.js "></script>
+    <script id="twitter-wjs " src="js/widjets.js "></script>
+    <!-- <script src="js/plugins/bootstrap.min.js "></script> -->
+    <!-- <script src="js/plugins/owl.carousel.min.js "></script> -->
+    <!-- <script src="js/plugins/wow.min.js "></script> -->
+    <!-- <script src="js/custom.js "></script> -->
     <!-- Custom Script -->
-    <script src="js/custom.js"></script>
-    <iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe"></iframe>
+    <script src="js/custom.js "></script>
+    <iframe id="rufous-sandbox " scrolling="no " frameborder="0 " allowtransparency="true " allowfullscreen="true " style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none; " title="Twitter analytics iframe "></iframe>
 </body>
 
 </html>
