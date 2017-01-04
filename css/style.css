@@ -708,12 +708,12 @@ a.inverse.btn-green,
 }
 
 .btn-shadow.btn-green {
-    background-color: #9cd6ff !important;
+    background-color: #4698e8 !important;
     border-radius: 65px !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-    border: 3px solid #9cd6ff !important;
-    color: #292929;
+    border: 3px solid #4698e8 !important;
+    color: white;
 }
 
 .btn-border.btn-green,
@@ -1473,11 +1473,16 @@ textarea {
     font-family: myFirstFont;
     src: url(../open-sans/OpenSans-Regular.ttf);
 }
-
+@font-face {
+    font-family: open;
+    src: url(../montserrat/MontserratAlternates-ExtraLight.otf);
+}
 .open-sans {
     font-family: 'myFirstFont' !important;
 }
-
+.open {
+    font-family: 'open' !important;
+}
 .h figure {
     z-index: 1;
     position: relative;
