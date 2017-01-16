@@ -19,6 +19,7 @@
         line-height: 1;
     }
 }
+
 @media (max-width:360px) {
     .alignmnt {
         font-size: 15px !important;
@@ -26,6 +27,20 @@
         line-height: 1;
     }
 }
+
+@media (max-width:1201px) {
+    .aligncenter {
+        text-align: center !important;
+        /*margin-bottom: 10px;*/
+    }
+}
+@media (max-width:768px) {
+    .aligncenter {
+        text-align: center !important;
+        margin-bottom: 10px !important;
+    }
+}
+
 
 /*------------------------------------------------------------------------------------------------------------------------
  
